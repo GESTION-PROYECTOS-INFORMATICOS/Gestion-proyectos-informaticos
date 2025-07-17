@@ -9,7 +9,7 @@
 
 ---
 
-## 🔧 2. Prácticas que podrían mejorar
+##  2. Prácticas que podrían mejorar
 - No consideramos desde el inicio la exclusión de archivos de compilación como `.dll`, `.exe` y carpetas `bin/`, `obj/`, lo que causó conflictos en los PR.
 - A veces trabajamos directamente en `develop` o no actualizamos las ramas locales antes de subir cambios.
 - Hubo confusión al momento de resolver conflictos, por falta de experiencia con merges.
@@ -18,7 +18,7 @@
 
 ---
 
-## 🚫 3. ¿Qué se debería dejar de hacer?
+##  3. ¿Qué se debería dejar de hacer?
 - Subir archivos generados automáticamente por el sistema (compilaciones).
 - Hacer merges o commits sin revisar correctamente el estado de la rama remota y sin resolver conflictos localmente.
 
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧠 4. ¿Qué deberíamos estar haciendo (pero no hicimos)?
+##  4. ¿Qué deberíamos estar haciendo (pero no hicimos)?
 - Crear un archivo `.gitignore` al comienzo del proyecto para evitar que se suban archivos innecesarios.
 - Automatizar validaciones con GitHub Actions o Codacy desde el inicio.
 - Hacer una revisión semanal de ramas activas y Pull Requests para evitar acumulación de tareas en último momento.
@@ -44,7 +44,7 @@
 
 ---
 
-## ❓ 5 Whys - Análisis de causa raíz
+## 5 Whys - Análisis de causa raíz
 
 **Problema:** Se subieron archivos compilados y hubo conflictos que interrumpieron el flujo de trabajo.
 
