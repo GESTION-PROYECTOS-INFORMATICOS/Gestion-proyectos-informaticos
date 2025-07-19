@@ -1,7 +1,7 @@
 # Gestion-proyectos-informaticos
 
 
-##Introducción##
+## Introducción
 Este repositorio está dedicado a la gestión del proyecto informático, documentando las configuraciones, reglas y procesos necesarios para el desarrollo y la colaboración del equipo. Aquí encontrarás las pautas para contribuir y mantener la coherencia en el proyecto.
 
 ##Reglas de contribución##
@@ -18,9 +18,15 @@ v1.1.0, etc.).
  
 
 
-###Evidencias###
-*Imagen de Postman
+## Evidencias pruebas de calidad
+* Imagen de Postman
 https://imgur.com/a/dMJmnFf
+
+* Prueba con selenium:
+https://youtu.be/g_OkESF-7N8
+
+* Codacy:
+Integrado en github.
 
 # COMO EJECUTAR EL PRODUCTO
 Requisitos previos:
